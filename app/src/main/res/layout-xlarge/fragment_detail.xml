@@ -15,25 +15,24 @@
 
     <TextView android:id="@+id/detail_brand"
         android:gravity="center"
-        android:textSize="18sp"
+        android:textSize="30sp"
         android:layout_width="240dip"
         android:textColor="@color/bright_text_dark_focused"
         android:layout_weight="1"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
         android:layout_height="80dip"
-        android:layout_marginTop="10dip"
+        android:layout_marginTop="20dip"
         />
 
     <TextView android:id="@+id/detail_model"
         android:gravity="center"
         android:textStyle="bold"
-        android:textSize="14sp"
+        android:textSize="24sp"
         android:textColor="@color/bright_text_dark_focused"
         android:layout_width="300dip"
         android:layout_height="120dip"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="4dip"
         android:layout_weight="1"
         />
 
@@ -41,13 +40,12 @@
         android:gravity="center"
         android:layout_width="240dip"
         android:textStyle="bold"
-        android:textSize="14sp"
+        android:textSize="24sp"
         android:textColor="@color/bright_text_dark_focused"
-        android:layout_height="60dip"
+        android:layout_height="80dip"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="4dip"
         android:layout_weight="1"
-        android:layout_marginBottom="4dip" />
+        />
 
     <ImageView android:id="@+id/detail_image"
         android:gravity="center"
@@ -56,21 +54,19 @@
         android:layout_width="210dip"
         android:layout_weight="0"
         android:padding="4dip"
-        android:layout_marginTop="4dip"
         android:background="@drawable/border_image"
         />
 
     <TextView
         android:id="@+id/details"
-        android:layout_height="160dp"
+        android:layout_height="150dp"
         android:layout_width="300dip"
         android:textColor="@color/bright_text_dark_focused"
         android:maxLines="8"
         android:lines="8"
-        android:layout_weight="1"
         android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="4dip" />
+        android:layout_marginTop="20dip" />
 
 
     <Button
@@ -82,10 +78,10 @@
         android:textColor="@color/bright_text_dark_focused"
         android:layout_alignParentBottom="true"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="4dip"
+        android:layout_marginTop="20dip"
         android:background="@drawable/border_image"
         android:backgroundTint="#300000FF"
-        android:layout_marginBottom="4dip"
+        android:layout_marginBottom="20dip"
         android:backgroundTintMode="src_atop" />
 
 </LinearLayout>

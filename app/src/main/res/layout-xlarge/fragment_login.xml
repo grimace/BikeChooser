@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#000000"
+    tools:context=".MainActivityFragment">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="User Id"
+        android:textColorHint="@color/bright_text_dark_focused"
+        android:textSize="18dip"
+        android:ems="12"
+        android:id="@+id/editText2"
+        android:layout_above="@+id/editText"
+        android:textColor="@color/bright_text_dark_focused"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:autoText="false" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColorHint="@color/bright_text_dark_focused"
+        android:textSize="18dip"
+        android:hint="Password"
+        android:ems="12"
+        android:textColor="@color/bright_text_dark_focused"
+        android:id="@+id/editText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:textColor="@color/bright_text_dark_focused"
+        android:text="Submit"
+        android:id="@+id/loginButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/border_image"
+        android:backgroundTint="#300000FF"
+        android:backgroundTintMode="src_atop"
+        android:alpha="0.8" />
+
+</RelativeLayout>
