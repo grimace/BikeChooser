@@ -1,0 +1,49 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:id="@+id/main_layout">
+
+    <ViewAnimator
+        android:id="@+id/animator"
+        android:layout_width="fill_parent"
+        android:inAnimation="@anim/fade_in"
+        android:outAnimation="@anim/fade_out"
+        android:layout_height="fill_parent">
+
+        <fragment
+            android:id="@+id/fragment_login"
+            android:name="com.maceghost.test.bikechooser.LoginFragment"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="#000000"
+            tools:layout="@layout/fragment_main">
+            <!-- Preview: layout=@layout/fragment_login -->
+        </fragment>
+
+        <fragment
+            android:id="@+id/fragment_main"
+            android:name="com.maceghost.test.bikechooser.MainFragment"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:background="#000000"
+            android:layout_height="fill_parent" >
+            <!-- Preview: layout=@layout/fragment_main -->
+        </fragment>
+
+        <!-- This is now being added dynamically <fragment-->
+            <!--android:id="@+id/fragment_detail"-->
+            <!--android:name="com.maceghost.test.bikechooser.DetailFragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="fill_parent" >-->
+            <!--&lt;!&ndash; Preview: layout=@layout/fragment_detail &ndash;&gt;-->
+        <!--</fragment>-->
+
+    </ViewAnimator>
+
+</LinearLayout>

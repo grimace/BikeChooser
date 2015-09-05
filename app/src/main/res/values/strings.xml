@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">BikeChooser</string>
+    <string name="action_settings">Settings</string>
+    <string name="pbrand">Brand</string>
+    <string name="pmodel">Model</string>
+    <string name="pprice">Price</string>
+    <string name="pimage">Image</string>
+    <string name="footer">Content goes here.</string>
+
+</resources>

@@ -1,0 +1,15 @@
+[
+  { "brand" :"Fuji", "model":"Fuji Absolute 3.0 LE Flat Bar Road Bike","price":"$1195.99","image":"fuji-1"},
+  { "brand" :"Fuji", "model":"Fuji Gran Fondo 2.0 LE Road Bike","price":"$1559.99","image":"fuji-2"},
+  { "brand" :"Fuji", "model":"Fuji Sportif 3.0 LE Road Bike ","price":"$859.99","image":"fuji-3"},
+  { "brand" :"Schwinn", "model":"Schwinn Searcher 4 Comfort Bike - 2015","price":"$459.99","image":"schwinn-1"},
+  { "brand" :"Schwinn", "model":"Schwinn Searcher 2 Sport Hybrid Bike - 2015","price":"$579.99","image":"schwinn-2"},
+  { "brand" :"Schwinn", "model":"GT Transeo 2.0 Women's Comfort Bike - 2015","price":"$730.99","image":"schwinn-3"},
+  { "brand" :"GT", "model":"GT Palomar 26 Mountain Bike - 2015","price":"$329.99","image":"gt-1"},
+  { "brand" :"GT", "model":"Schwinn Searcher 4 Women's Comfort Bike - 2015","price":"$459.99","image":"gt-2"},
+  { "brand" :"Ridley", "model":"Ridley Fenix CR1 Ultegra Road Bike - 2015 Performance Exclusive","price":"$3499.99","image":"ridley-1"},
+  { "brand" :"Ridley", "model":"Ridley Fenix AR1 105 7005 Road Bike - 2015 Performance Exclusive","price":"$1999.99","image":"ridley-2"},
+  { "brand" :"Cannondale", "model":"CAAD12 BLACK INC.","price":"$5,860.00","image":"cannondale-1"},
+  { "brand" :"Cannondale", "model":"SUPERSIX EVO BLACK INC.","price":"$12,790.00","image":"cannondale-2"}
+
+]
